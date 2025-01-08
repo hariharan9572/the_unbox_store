@@ -13,6 +13,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
+});
+
+Route::get('/', function () {
+    return view('index');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/product', function () {
+    return view('product');
+});
+
+Route::get('/services', function () {
+    return view('service');
+});
+
+Route::get('/mobile-repair-form', function () {
+    return view('mobile-repair-form');
 });
