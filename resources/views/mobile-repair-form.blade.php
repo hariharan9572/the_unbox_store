@@ -137,7 +137,7 @@
             </div>
 
             <!-- Submit -->
-            <button type="submit" class="submit-button">Repair My Device</button>
+            <button type="submit" class="submit-button">Fix My Device</button>
         </form>
     </div>
 </section>
